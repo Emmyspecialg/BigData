@@ -1,0 +1,10 @@
+1. To run program, you want to first download MissingPokerCards.java file (you would have to compile it and create jar package that would get you a .jar file and .class file. 
+
+2. Then, you want to run to use my GenerateRandomPokerCards.java file to give you random cards and run it to generate a random input for this assignment. This should give you a txt file called poker_cards.txt.
+
+3. After you want to create a directory called input1 to and add the poker_cards.txt in it. 
+
+4. After you execute the program with this code: bin/hadoop jar MissingPokerCards.jar MissingPokerCards /input1 /output1
+
+5. Last you would want to view the output with this code:  bin/hdfs dfs -cat /output1/*
+
